@@ -9,7 +9,7 @@ servers:
     - url: https://poc1.illum.io
 
 paths:
-    /orgs/{org_id}/workloads:
+  /orgs/{org_id}/workloads:
     post:
       tags:
         - workloads
