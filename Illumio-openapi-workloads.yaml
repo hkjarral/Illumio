@@ -21,11 +21,6 @@ paths:
           in: path
           schema:
             type: integer
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: v2/workloads_post.schema.json
       responses:
         '201':
           description: Success
@@ -254,12 +249,4 @@ paths:
             type: integer
       responses:
         '200':
-          description: Success
-          content:
-            application/json:
-              schema:
-                $ref: v2/workloads_get.schema.json
-                components:
-schemas:
-  workloads_get:
-    $ref: v2/workloads_get.schema.json
+          description: Successful Request.
