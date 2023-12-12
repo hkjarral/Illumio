@@ -5,7 +5,7 @@
     "description_for_human": "This plugin check illumio workloads",
     "description_for_model": "This plugin checks illumio workloads",
     "auth": {
-      "type": "OAuthClientCredentialsFlow"
+      "type": "OAuthClientCredentialsFlo"
     },
     "api": {
       "type": "openapi",
